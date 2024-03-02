@@ -1,1 +1,3 @@
-# QuizGame
+# Quiz Game
+
+By Franco Balich
