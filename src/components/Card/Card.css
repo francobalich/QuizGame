@@ -1,0 +1,18 @@
+.card {
+  background-color: aliceblue;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 30px;
+  box-shadow: 10px 10px 50px -21px rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: 10px 10px 50px -21px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 10px 10px 50px -21px rgba(0, 0, 0, 0.26);
+  color: black;
+  max-width: 800px;
+  transition: transform ease .5s;
+}
+.cardToLeft{
+  transform: translateX(-50vh);
+}
+.cardToRight{
+  transform: translateX(50vh);
+}
