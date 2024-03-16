@@ -3,9 +3,9 @@ import './Home.css'
 
 export const Home = () => {
   return (
-    <section>
-      <h1>Quiz Game</h1>
-      <Link to='/game'>Jugar</Link>
+    <section className='home'>
+      <h1 className='title home__mainTitle'>Quiz Game</h1>
+      <Link className='btnStyle' to='/game'>Jugar</Link>
     </section>
   )
 }

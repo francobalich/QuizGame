@@ -1,0 +1,13 @@
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100dvh;
+  max-height: 100dvh;
+  gap: 50px;
+}
+.home__mainTitle{
+  color: white;
+}

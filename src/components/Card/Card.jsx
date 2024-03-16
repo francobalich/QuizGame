@@ -21,7 +21,7 @@ export const Card = ({title="Title",text="-"}) => {
   }
   return (
     <div className={`card ${animation}`}>
-      <h3>{title}</h3>
+      <h3 className='title'>{title}</h3>
       <img className='card__mainImg' src={pngQuestion} alt='imagen con signo de pregunta' />
       <p>{text}</p>
       <div className='card__btnContainer'>
