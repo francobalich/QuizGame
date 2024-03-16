@@ -21,6 +21,7 @@ export const Card = ({title="Title",text="-"}) => {
   }
   useEffect(() => {
     return () => {
+      <></>
     }
   }, [animation])
   
