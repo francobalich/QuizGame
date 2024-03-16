@@ -7,12 +7,21 @@
   -webkit-box-shadow: 10px 10px 50px -21px rgba(0, 0, 0, 0.26);
   -moz-box-shadow: 10px 10px 50px -21px rgba(0, 0, 0, 0.26);
   color: black;
-  max-width: 800px;
+  width: 50vw;
+  min-height: 15vh;
   transition: transform ease .5s;
+  position:absolute;
+  top: 100px;
 }
 .cardToLeft{
-  transform: translateX(-50vh);
+  transform: translateX(-110vw);
 }
 .cardToRight{
-  transform: translateX(50vh);
+  transform: translateX(110vw);
+}
+.cardToBottom{
+  transform: translateY(110vh);
+}
+.hidden{
+  display: none;
 }
