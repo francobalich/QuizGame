@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './Card.css'
 import svgSuccess from '../../assets/success.svg'
 import svgQuestion from '../../assets/question.svg'
@@ -19,6 +19,11 @@ export const Card = ({title="Title",text="-"}) => {
     setAnimation('cardToRight')
     setTimeout(() => {setAnimation('hidden') }, 1000)
   }
+  useEffect(() => {
+    return () => {
+    }
+  }, [animation])
+  
   return (
     <div className={`card ${animation}`}>
       <h3 className='title'>{title}</h3>
