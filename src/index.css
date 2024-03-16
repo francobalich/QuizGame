@@ -8,3 +8,11 @@ body{
    color: white;
    font-family: "Open Sans", sans-serif;
 }
+
+.btnStyle{
+  background-color: #d0d0d0;
+  border-radius: 5px;
+  border: 1px solid black;
+  
+
+}

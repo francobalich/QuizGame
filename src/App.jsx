@@ -1,12 +1,13 @@
 import { Navigate, Route, Routes } from 'react-router-dom'
 import './App.css'
-import { Game } from './components/Game/Game'
+import { Game } from './layout/Game/Game'
+import { Home } from './layout/Home/Home'
 
 function App() {
 
   return (
     <Routes>
-      <Route path='/' element={<h1>Quiz Game</h1>} />
+      <Route path='/' element={<Home />} />
       <Route path='/game' element={<Game />} />
       <Route path='/*' element={<Navigate to='/' />} />
       

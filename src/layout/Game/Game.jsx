@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Card } from '../Card/Card'
+import { Card } from '../../components/Card/Card'
 import './Game.css'
 import questionData from '../../data/questions.json'
 

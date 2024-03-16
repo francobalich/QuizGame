@@ -19,10 +19,10 @@ export const Card = ({title="Title",text="-"}) => {
     <div className={`card ${animation}`}>
       <h3>{title}</h3>
       <p>{text}</p>
-      <div>
-        <button onClick={handlePrevius}>Anterior</button>
-        <button onClick={handleOmit}>Omitir</button>
-        <button onClick={handleNext}>Siguiente</button>
+      <div className=''>
+        <button className='btnStyle' onClick={handlePrevius}>Anterior</button>
+        <button className='btnStyle' onClick={handleOmit}>Omitir</button>
+        <button className='btnStyle' onClick={handleNext}>Siguiente</button>
       </div>
     </div>
   )
