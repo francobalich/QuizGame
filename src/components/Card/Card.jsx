@@ -7,27 +7,30 @@ import pngQuestion from '../../assets/pregunta2.png'
 
 export const Card = ({title="Title",text="-", id,clb}) => {
   const [animation, setAnimation] = useState('')
-  const handlePrevius = () => {
-    setAnimation('cardToLeft')
+
+  const removeQuestion=(newAnimation)=>{
+    setAnimation(newAnimation)
     setTimeout(() => {
       setAnimation('hidden')
       clb(id)
-    }, 1000)
+    }, 500)
+  }
+
+  const handlePrevius = () => {
+    removeQuestion('cardToLeft')
   }
   const handleOmit = () => {
-    setAnimation('cardToBottom')
-    setTimeout(() => {setAnimation('hidden') }, 1000)
+    removeQuestion('cardToBottom')
   }
   const handleNext = () => {
-    setAnimation('cardToRight')
-    setTimeout(() => {setAnimation('hidden') }, 1000)
+    removeQuestion('cardToRight')
   }
   useEffect(() => {
     return () => {
       <></>
     }
   }, [animation])
-  
+
   return (
     <div className={`card ${animation}`}>
       <h3 className='title'>{title}</h3>
