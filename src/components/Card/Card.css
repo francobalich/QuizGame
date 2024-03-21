@@ -24,7 +24,7 @@
 }
 .card__mainImg {
   height: 70%;
-  max-height: 350px;
+  max-height: 300px;
 }
 
 .card p {
@@ -51,4 +51,15 @@
 }
 .card__btnContainer img {
   width: 90px;
+}
+
+@media screen and (max-width:800px) {
+  .card__mainImg {
+    height: 60%;
+    max-height: 250px;
+  }
+  
+  .card p {
+    font-size: 1.2rem;
+  }
 }
