@@ -1,122 +1,302 @@
 [
     {
-        "id": 0,
-        "question": "¿Cuál es tu libro favorito y por qué?",
-        "answered": false,
-        "theme": "Literatura"
-    },
-    {
         "id": 1,
-        "question": "Si pudieras tener una cena con cualquier persona, viva o fallecida, ¿quién sería y por qué?",
+        "question": "¿Cuál es tu mayor miedo y cómo lo enfrentas?",
         "answered": false,
-        "theme": "Personalidades"
+        "theme": "Personalidad"
     },
     {
         "id": 2,
-        "question": "¿Qué es lo que más valoras en una amistad?",
+        "question": "¿Te gustaría ser famoso/a? ¿En qué sentido?",
+        "answered": false,
+        "theme": "Intereses"
+    },
+    {
+        "id": 3,
+        "question": "Si pudieras tener una cena con cualquier persona, viva o fallecida, ¿quién sería y por qué?",
+        "answered": false,
+        "theme": "Inspiración"
+    },
+    {
+        "id": 4,
+        "question": "¿Qué cualidad valoras más en una amistad?",
         "answered": false,
         "theme": "Relaciones"
     },
     {
-        "id": 3,
-        "question": "Si tuvieras la oportunidad de vivir en cualquier lugar del mundo, ¿dónde sería?",
-        "answered": false,
-        "theme": "Viajes"
-    },
-    {
-        "id": 4,
-        "question": "¿Cuál es tu película favorita de todos los tiempos?",
-        "answered": false,
-        "theme": "Cine"
-    },
-    {
         "id": 5,
-        "question": "¿Prefieres el amanecer o el atardecer? ¿Por qué?",
+        "question": "¿Cuál es tu rutina de cuidado personal favorita?",
         "answered": false,
-        "theme": "Preferencias"
+        "theme": "Personalidad"
     },
     {
         "id": 6,
-        "question": "¿Cuál es tu forma favorita de relajarte después de un día agotador?",
+        "question": "¿Cuál es tu película o libro favorito y por qué te impactó?",
         "answered": false,
-        "theme": "Relax"
+        "theme": "Inspiración"
     },
     {
         "id": 7,
-        "question": "¿Tienes alguna tradición familiar que te encante mantener?",
+        "question": "Si pudieras vivir en cualquier parte del mundo, ¿dónde sería y por qué?",
         "answered": false,
-        "theme": "Familia"
+        "theme": "Reflexión"
     },
     {
         "id": 8,
+        "question": "¿Qué es lo que más te gusta hacer en tu tiempo libre?",
+        "answered": false,
+        "theme": "Personalidad"
+    },
+    {
+        "id": 9,
         "question": "¿Qué te inspira en la vida?",
         "answered": false,
         "theme": "Inspiración"
     },
     {
-        "id": 9,
-        "question": "¿Qué habilidad o talento te gustaría tener?",
-        "answered": false,
-        "theme": "Habilidades"
-    },
-    {
         "id": 10,
-        "question": "Si pudieras cambiar algo en el mundo, ¿qué sería?",
+        "question": "¿Cuál es tu mayor logro hasta ahora?",
         "answered": false,
-        "theme": "Cambio"
+        "theme": "Inspiración"
     },
     {
         "id": 11,
-        "question": "¿Cómo defines el éxito personalmente?",
+        "question": "¿Qué te motiva a levantarte cada mañana?",
         "answered": false,
-        "theme": "Éxito"
+        "theme": "Inspiración"
     },
     {
         "id": 12,
-        "question": "¿Qué importancia le das a la salud mental en tu vida?",
+        "question": "¿Cuál es tu comida favorita y por qué?",
         "answered": false,
-        "theme": "Salud mental"
+        "theme": "Intereses"
     },
     {
         "id": 13,
-        "question": "¿Cuál es tu mayor miedo y cómo lo enfrentas?",
+        "question": "Si pudieras cambiar algo del mundo, ¿qué cambiarías?",
         "answered": false,
-        "theme": "Miedos"
+        "theme": "Reflexión"
     },
     {
         "id": 14,
-        "question": "Si pudieras tener una superpotencia, ¿cuál elegirías?",
+        "question": "¿Qué te hace sentir más vivo/a?",
         "answered": false,
-        "theme": "Superpoderes"
+        "theme": "Reflexión"
     },
     {
         "id": 15,
-        "question": "¿Qué te hace reír sin importar qué tan malo sea tu día?",
+        "question": "¿Cuál es tu hobby más extraño o inesperado?",
         "answered": false,
-        "theme": "Humor"
+        "theme": "Personalidad"
     },
     {
         "id": 16,
-        "question": "¿Cuál es tu canción favorita que te levanta el ánimo?",
+        "question": "¿Qué crees que es lo más importante en una relación?",
         "answered": false,
-        "theme": "Música"
+        "theme": "Relaciones"
     },
     {
         "id": 17,
-        "question": "¿Tienes alguna meta de vida que quieras lograr en los próximos cinco años?",
+        "question": "¿Cuál es tu lugar favorito en la naturaleza?",
         "answered": false,
-        "theme": "Metas"
+        "theme": "Reflexión"
     },
     {
         "id": 18,
-        "question": "¿Qué te motivó a elegir tu profesión actual?",
+        "question": "¿Qué te gustaría aprender a hacer que aún no sepas?",
         "answered": false,
-        "theme": "Profesión"
+        "theme": "Inspiración"
     },
     {
         "id": 19,
-        "question": "¿Qué significa para ti la palabra 'éxito'?",
+        "question": "¿Qué te hace reír a carcajadas?",
         "answered": false,
-        "theme": "Éxito"
+        "theme": "Personalidad"
+    },
+    {
+        "id": 20,
+        "question": "Si pudieras tener un superpoder, ¿cuál sería y por qué?",
+        "answered": false,
+        "theme": "Reflexión"
+    },
+    {
+        "id": 21,
+        "question": "¿Qué canción te hace sentir emociones profundas?",
+        "answered": false,
+        "theme": "Intereses"
+    },
+    {
+        "id": 22,
+        "question": "¿Cuál es tu recuerdo más preciado con tus amigos?",
+        "answered": false,
+        "theme": "Relaciones"
+    },
+    {
+        "id": 23,
+        "question": "¿Qué significa el amor para ti?",
+        "answered": false,
+        "theme": "Relaciones"
+    },
+    {
+        "id": 24,
+        "question": "¿Cuál es tu mayor desafío en este momento de tu vida?",
+        "answered": false,
+        "theme": "Reflexión"
+    },
+    {
+        "id": 25,
+        "question": "¿Qué te hace sentir agradecido/a?",
+        "answered": false,
+        "theme": "Reflexión"
+    },
+    {
+        "id": 26,
+        "question": "Si pudieras cambiar algo de ti mismo/a, ¿qué sería y por qué?",
+        "answered": false,
+        "theme": "Inspiración"
+    },
+    {
+        "id": 27,
+        "question": "¿Cuál es tu mayor filosofía de vida?",
+        "answered": false,
+        "theme": "Reflexión"
+    },
+    {
+        "id": 28,
+        "question": "¿Qué te gustaría que la gente supiera de ti?",
+        "answered": false,
+        "theme": "Personalidad"
+    },
+    {
+        "id": 29,
+        "question": "¿Cuál es tu forma favorita de relajarte?",
+        "answered": false,
+        "theme": "Intereses"
+    },
+    {
+        "id": 30,
+        "question": "Si pudieras vivir en cualquier época de la historia, ¿cuál sería y por qué?",
+        "answered": false,
+        "theme": "Reflexión"
+    },
+    {
+        "id": 31,
+        "question": "¿Cuál es tu mayor inspiración en la vida?",
+        "answered": false,
+        "theme": "Inspiración"
+    },
+    {
+        "id": 32,
+        "question": "¿Qué te hace sentir más conectado/a con los demás?",
+        "answered": false,
+        "theme": "Relaciones"
+    },
+    {
+        "id": 33,
+        "question": "Si pudieras tener una conversación profunda con alguien, ¿sobre qué tema sería?",
+        "answered": false,
+        "theme": "Reflexión"
+    },
+    {
+        "id": 34,
+        "question": "¿Cuál es tu mayor lección aprendida hasta ahora en la vida?",
+        "answered": false,
+        "theme": "Reflexión"
+    },
+    {
+        "id": 35,
+        "question": "¿Qué es lo que más te apasiona en la vida?",
+        "answered": false,
+        "theme": "Reflexión"
+    },
+    {
+        "id": 36,
+        "question": "Si pudieras cambiar tu carrera, ¿qué te gustaría hacer y por qué?",
+        "answered": false,
+        "theme": "Reflexión"
+    },
+    {
+        "id": 37,
+        "question": "¿Qué te gustaría que la gente recordara de ti?",
+        "answered": false,
+        "theme": "Intereses"
+    },
+    {
+        "id": 38,
+        "question": "¿Cuál es tu mayor aspiración en la vida?",
+        "answered": false,
+        "theme": "Sueños"
+    },
+    {
+        "id": 39,
+        "question": "Si pudieras resolver un problema mundial, ¿cuál sería y cómo lo resolverías?",
+        "answered": false,
+        "theme": "Sueños"
+    },
+    {
+        "id": 40,
+        "question": "¿Qué te hace sentir más vulnerable?",
+        "answered": false,
+        "theme": "Reflexión"
+    },
+    {
+        "id": 41,
+        "question": "¿Qué crees que es lo más valioso en la vida?",
+        "answered": false,
+        "theme": "Personalidad"
+    },
+    {
+        "id": 42,
+        "question": "Si pudieras hacer una diferencia en el mundo, ¿cómo lo harías?",
+        "answered": false,
+        "theme": "Reflexión"
+    },
+    {
+        "id": 43,
+        "question": "¿Qué te gustaría mejorar de ti mismo/a?",
+        "answered": false,
+        "theme": "Personalidad"
+    },
+    {
+        "id": 44,
+        "question": "¿Cuál es tu mayor sueño para el futuro?",
+        "answered": false,
+        "theme": "Sueños"
+    },
+    {
+        "id": 45,
+        "question": "¿Qué te hace sentir más realizado/a?",
+        "answered": false,
+        "theme": "Sueños"
+    },
+    {
+        "id": 46,
+        "question": "Si pudieras dar un consejo a tu yo más joven, ¿cuál sería?",
+        "answered": false,
+        "theme": "Reflexión"
+    },
+    {
+        "id": 47,
+        "question": "¿Cuál es tu mayor admiración en la vida?",
+        "answered": false,
+        "theme": "Inspiración"
+    },
+    {
+        "id": 48,
+        "question": "¿Qué te hace sentir más en paz contigo mismo/a?",
+        "answered": false,
+        "theme": "Intereses"
+    },
+    {
+        "id": 49,
+        "question": "¿Cuál es tu mayor deseo para la humanidad?",
+        "answered": false,
+        "theme": "Sueños"
+    },
+    {
+        "id": 50,
+        "question": "Si pudieras viajar en el tiempo, ¿a qué momento irías y por qué?",
+        "answered": false,
+        "theme": "Reflexión"
     }
 ]
