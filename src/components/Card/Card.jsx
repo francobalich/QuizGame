@@ -13,7 +13,7 @@ export const Card = ({title="Title",text="-", id,clb}) => {
     setTimeout(() => {
       setAnimation('hidden')
       clb(id)
-    }, 500)
+    }, 1000)
   }
 
   const handlePrevius = () => {
