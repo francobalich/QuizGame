@@ -5,11 +5,14 @@ import svgQuestion from '../../assets/question.svg'
 import svgError from '../../assets/error.svg'
 import pngQuestion from '../../assets/pregunta2.png'
 
-export const Card = ({title="Title",text="-"}) => {
+export const Card = ({title="Title",text="-", id,clb}) => {
   const [animation, setAnimation] = useState('')
   const handlePrevius = () => {
     setAnimation('cardToLeft')
-    setTimeout(() => {setAnimation('hidden') }, 1000)
+    setTimeout(() => {
+      setAnimation('hidden')
+      clb(id)
+    }, 1000)
   }
   const handleOmit = () => {
     setAnimation('cardToBottom')

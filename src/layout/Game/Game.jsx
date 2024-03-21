@@ -7,18 +7,29 @@ export const Game = () => {
 
   const [questions, setQuestions] = useState(<></>)
 
+  const removeQuestion = (id) => {
+    let questionsAux = [];
+    questionsAux = questions;
+    console.log(questions);
+    let newList=questionsAux.filter(x=>x.id!==id)
+    console.log(newList);
+  }
   const makeCards = () => {
     let questionList = []
-    let i = 0
     questionData.forEach(question => {
-      questionList.push(<Card key={i} title={question.theme} text={question.question} />)
-      i++
+      questionList.push(<Card
+        key={question.id}
+        id={question.id}
+        title={question.theme}
+        text={question.question}
+        clb={removeQuestion}
+      />)
     });
     return questionList
   }
+
   useEffect(() => {
     setQuestions(makeCards())
-    console.log(questions.lenght);
   }, [])
 
   return (
