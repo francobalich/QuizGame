@@ -7,9 +7,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path='/QuizGame/' element={<Home />} />
-      <Route path='/QuizGame/game' element={<Game />} />
-      <Route path='/*' element={<Navigate to='/QuizGame/' />} />
+      <Route path='/' element={<Home />} />
+      <Route path='/game' element={<Game />} />
+      <Route path='/*' element={<Navigate to='/' />} />
       
     </Routes>
   )
