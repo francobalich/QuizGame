@@ -1,15 +1,32 @@
+import { useEffect, useState } from "react";
 import { Card } from "../Card/Card"
+import questionData from '../../data/questions.json'
 
-export const Cards = ({ questionData }) => {
-    console.log(questionData.length)
-    return (
+export const Cards = () => {
+  const [questions, setQuestions] = useState(questionData)
+
+  const removeQuestion = (id) => {
+    let questionsAux = [];
+    questionsAux = questions;
+    let newList = questionsAux.filter(x => x.id !== id)
+    console.log(newList);
+    setQuestions(newList)
+  }
+
+  return (
     <>
-        {
-          questionData.map(({ question, theme }, i) => {
-            // No te olvides de crear un id por cada question ya que es mala practica usar index por su variabilidad
-          return <Card key={i} title={theme} text={question} />
-          })
-        }
+      {
+        questions.map(({ question, theme, id }) => {
+          return (
+            <Card
+              key={id}
+              id={id}
+              title={theme}
+              text={question}
+              clb={removeQuestion}/>
+          )
+        })
+      }
     </>
-    )
+  )
 }
