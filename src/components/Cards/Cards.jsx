@@ -3,14 +3,12 @@ import { Card } from "../Card/Card"
 import questionData from '../../data/questions.json'
 
 export const Cards = () => {
+  //Ex: questionData.splice(1, questionData.length - 1 );
+
   const [questions, setQuestions] = useState(questionData)
 
-  const removeQuestion = (id) => {
-    let questionsAux = [];
-    questionsAux = questions;
-    let newList = questionsAux.filter(x => x.id !== id)
-    console.log(newList);
-    setQuestions(newList)
+  const removeQuestion = (id) => { //Todo Revisar
+    setQuestions(value=>value.filter(x => x.id !== id))
   }
 
   return (
@@ -23,7 +21,7 @@ export const Cards = () => {
               id={id}
               title={theme}
               text={question}
-              clb={removeQuestion}/>
+              clb={removeQuestion} />
           )
         })
       }
