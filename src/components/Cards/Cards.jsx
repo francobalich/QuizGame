@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Card } from "../Card/Card"
 import questionData from '../../data/questions.json'
 
