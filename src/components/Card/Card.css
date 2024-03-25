@@ -45,9 +45,9 @@
 }
 .card__btnContainer {
   display: flex;
-  justify-content: center;
+  width: 70%;
+  justify-content: space-between;
   align-items: center;
-  gap: 20px;
 }
 .card__btnContainer img {
   width: 90px;
@@ -55,11 +55,10 @@
 
 @media screen and (max-width:800px) {
   .card__mainImg {
-    height: 60%;
+    height: 70%;
     max-height: 250px;
   }
-  
   .card p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 }

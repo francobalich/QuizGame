@@ -19,9 +19,7 @@ export const Card = ({title="Title",text="-", id,clb}) => {
   const handlePrevius = () => {
     removeQuestion('cardToLeft')
   }
-  const handleOmit = () => {
-    removeQuestion('cardToBottom')
-  }
+
   const handleNext = () => {
     removeQuestion('cardToRight')
   }
@@ -38,7 +36,6 @@ export const Card = ({title="Title",text="-", id,clb}) => {
       <p>{text}</p>
       <div className='card__btnContainer'>
         <img onClick={handlePrevius} src={svgError} alt='botton con una cruz' />
-        <img onClick={handleOmit} src={svgQuestion} alt='botton con una cruz' />
         <img onClick={handleNext} src={svgSuccess} alt='botton con una cruz' />
       </div>
     </div>
