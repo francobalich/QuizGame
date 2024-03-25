@@ -15,12 +15,14 @@ export const Card = ({title="Title",text="-", id,clb}) => {
     }, 1000)
   }
 
-  const handlePrevius = () => {
+  const handleBtnDislike = () => {
     removeQuestion('cardToLeft')
+    localStorage.setItem(id,false)
   }
 
-  const handleNext = () => {
+  const handleBtnLike = () => {
     removeQuestion('cardToRight')
+    localStorage.setItem(id,true)
   }
   useEffect(() => {
     return () => {
@@ -34,8 +36,8 @@ export const Card = ({title="Title",text="-", id,clb}) => {
       <img className='card__mainImg' src={pngQuestion} alt='imagen con signo de pregunta' />
       <p>{text}</p>
       <div className='card__btnContainer'>
-        <img className='svgButton dislike' onClick={handlePrevius} src={svgDislike} alt='botton con una cruz' />
-        <img className='svgButton like' onClick={handleNext} src={svgLike} alt='botton con una cruz' />
+        <img className='svgButton dislike' onClick={handleBtnDislike} src={svgDislike} alt='botton con una cruz' />
+        <img className='svgButton like' onClick={handleBtnLike} src={svgLike} alt='botton con una cruz' />
       </div>
     </div>
   )
