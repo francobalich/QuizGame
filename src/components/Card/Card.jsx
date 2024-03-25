@@ -24,11 +24,7 @@ export const Card = ({title="Title",text="-", id,clb}) => {
     removeQuestion('cardToRight')
     localStorage.setItem(id,true)
   }
-  useEffect(() => {
-    return () => {
-      <></>
-    }
-  }, [animation])
+
 
   return (
     <div className={`card ${animation}`}>
