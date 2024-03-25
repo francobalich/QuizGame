@@ -14,9 +14,8 @@ export const Cards = () => {
   const getVisibleQuestions = (questionList) => {
     const newList=questionList.filter(x=>{
       let visible=(localStorage.getItem(x.id))
-      return visible === 'true'
+      return visible === 'true'  || visible === null
     })
-    console.log(newList.length);
     setQuestions(newList)
   }
   useEffect(() => {
