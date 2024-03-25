@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
 import './Card.css'
-import svgSuccess from '../../assets/success.svg'
-import svgQuestion from '../../assets/question.svg'
-import svgError from '../../assets/error.svg'
+import svgLike from '../../assets/like.svg'
+import svgDislike from '../../assets/dislike.svg'
 import pngQuestion from '../../assets/pregunta2.png'
 
 export const Card = ({title="Title",text="-", id,clb}) => {
@@ -35,8 +34,8 @@ export const Card = ({title="Title",text="-", id,clb}) => {
       <img className='card__mainImg' src={pngQuestion} alt='imagen con signo de pregunta' />
       <p>{text}</p>
       <div className='card__btnContainer'>
-        <img onClick={handlePrevius} src={svgError} alt='botton con una cruz' />
-        <img onClick={handleNext} src={svgSuccess} alt='botton con una cruz' />
+        <img className='svgButton dislike' onClick={handlePrevius} src={svgDislike} alt='botton con una cruz' />
+        <img className='svgButton like' onClick={handleNext} src={svgLike} alt='botton con una cruz' />
       </div>
     </div>
   )

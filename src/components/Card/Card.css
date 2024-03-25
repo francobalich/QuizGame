@@ -50,9 +50,21 @@
   align-items: center;
 }
 .card__btnContainer img {
-  width: 90px;
+  width: 50px;
+}
+.svgButton{
+  border-radius: 50%;
+  width: 50px;
+  padding: 20px;
 }
 
+.like{
+  background-color: green;
+}
+.dislike{
+  background-color: red;
+
+}
 @media screen and (max-width:800px) {
   .card__mainImg {
     height: 70%;
