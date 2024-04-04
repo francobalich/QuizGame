@@ -53,11 +53,14 @@
   width: 50px;
 }
 .svgButton{
-  border-radius: 50%;
   width: 50px;
   padding: 20px;
 }
 
+.btnRadius{
+  
+  border-radius: 50%;
+}
 .like{
   background-color: green;
 }
@@ -72,5 +75,8 @@
   }
   .card p {
     font-size: 1.4rem;
+  }
+  .card__btnContainer {
+    width: 90%;
   }
 }

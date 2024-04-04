@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Info.css'
 
 export const Info = () => {
@@ -8,6 +9,7 @@ export const Info = () => {
         <p>En directo por Twitch: <a href='https://www.twitch.tv/francolabs'>FrancoLabs</a></p>
         <p><a href='https://github.com/francobalich/QuizGame'>https://github.com/francobalich/QuizGame</a></p>
         <p>©2024</p>
+        <Link className='btnStyle' to='/'>Volver</Link>
       </div>
 
     </section>

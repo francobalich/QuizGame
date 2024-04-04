@@ -6,6 +6,7 @@ export const Home = () => {
     <section className='home'>
       <h1 className='title home__mainTitle'>Quiz Game</h1>
       <Link className='btnStyle' to='/game'>Jugar</Link>
+      <Link className='btnStyle' to='/info'>Créditos</Link>
     </section>
   )
 }
